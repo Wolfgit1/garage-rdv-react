@@ -1,1 +1,1 @@
-# garage-rdv-react
+Cette application React permet de gérer les rendez-vous d'un garage automobile. Les utilisateurs sont fournis par l'API DummyJson. Les clients peuvent prendre des rendez-vous avec une liste de mécaniciens prédéfinis, et les dates déjà réservées apparaissent en rouge sur le calendrier. L'application permet également la création de véhicules en intégrant les informations via l'API NHTSA pour obtenir des données fiables sur les véhicules.
