@@ -1,0 +1,223 @@
+{"voiture":[
+{"idVehicule": "0", "fabricant": "Suzuki", "modele": "SX4", "annee": "1990", "idUser":1},
+{"idVehicule": "1", "fabricant": "Suzuki", "modele": "SX4", "annee": "2021", "idUser":1},
+{"idVehicule": "2", "fabricant": "Suzuki", "modele": "SX4", "annee": "1974", "idUser":1},
+{"idVehicule": "3", "fabricant": "Suzuki", "modele": "SX6", "annee": "1974", "idUser":1},
+{"idVehicule": "4", "fabricant": "HONDA", "modele": "CIVIC", "annee": "2024", "idUser":1},
+{"idVehicule": "5", "fabricant": "HONDA", "modele": "CIVIC", "annee": "2012", "idUser":1}
+]}
+
+
+{ "rdvs":
+	[
+		{
+			"client": "Emily",
+			"clientId": 1,
+			"idVehicule": 10,
+			"infoVehicule": "Suzuki SX4 1990",
+			"besoins": "Changement d'huile et vérification des freins",
+			"mecanicien": "Michael",
+			"mecanicienId": 2,
+			"date": "2024-11-6",
+			"heure": 11,
+			"duree": null,
+			"rdvId": 38,
+			"commentaire": "Je n'ai plus d'huile merci de revenir un autre jour.",
+			"confirmer": true,
+			"etat": false,
+			"estPayer": false,
+			"cout":0
+		},
+		{
+			"client": "Emily",
+			"clientId": 1,
+			"idVehicule": 11,
+			"infoVehicule": "Suzuki SX4 2021",
+			"besoins": "Révision annuelle et contrôle des pneus",
+			"mecanicien": "Michael",
+			"mecanicienId": 2,
+			"date": "2024-11-4",
+			"heure": 8,
+			"duree": null,
+			"rdvId": 44,
+			"commentaire": "",
+			"confirmer": false,
+			"etat": true,
+			"estPayer": false,
+			"cout":0
+		},
+		{
+			"client": "Emily",
+			"clientId": 1,
+			"idVehicule": 21,
+			"infoVehicule": "Suzuki SX4 1974",
+			"besoins": "Remplacement de la batterie",
+			"mecanicien": "Michael",
+			"mecanicienId": 2,
+			"date": "2024-11-11",
+			"heure": 12,
+			"duree": null,
+			"rdvId": 45,
+			"commentaire": "",
+			"confirmer": false,
+			"etat": true,
+			"estPayer": false,
+			"cout":0
+		},
+		{
+			"client": "Emily",
+			"clientId": 1,
+			"idVehicule": 31,
+			"infoVehicule": "Suzuki SX6 1974",
+			"besoins": "Changement de pneus hiver",
+			"mecanicien": "Michael",
+			"mecanicienId": 2,
+			"date": "2024-11-4",
+			"heure": 13,
+			"duree": 1,
+			"rdvId": 98,
+			"commentaire": "",
+			"confirmer": true,
+			"etat": true,
+			"estPayer": false,
+			"cout":128
+		},
+		{
+			"client": "Emily",
+			"clientId": 1,
+			"idVehicule": 41,
+			"infoVehicule": "HONDA CIVIC 2024",
+			"besoins": "Inspection de la climatisation",
+			"mecanicien": "Michael",
+			"mecanicienId": 2,
+			"date": "2024-10-26",
+			"heure": 11,
+			"duree": 1,
+			"rdvId": 150,
+			"commentaire": "",
+			"confirmer": true,
+			"etat": true,
+			"estPayer": false,
+			"cout":150
+		}
+	]
+}
+
+{
+	"heuresDispo":
+	[
+		{
+			"heure":8
+		},
+		{
+			"heure":9
+		},
+		{
+			"heure":10
+		},
+		{
+			"heure":11
+		},
+		{
+			"heure":12
+		},
+		{
+			"heure":13
+		},
+		{
+			"heure":14
+		},
+		{
+			"heure":15
+		},
+		{
+			"heure":16
+		}
+	]
+}
+
+
+
+{
+    "datesDispo": [
+        {
+            "date": "2024-10-28"
+        },
+        {
+            "date": "2024-10-29"
+        },
+        {
+            "date": "2024-10-30"
+        },
+        {
+            "date": "2024-10-31"
+        },
+        {
+            "date": "2024-11-01"
+        },
+        {
+            "date": "2024-11-05"
+        },
+        {
+            "date": "2024-11-06"
+        },
+        
+        {
+            "date": "2024-11-11"
+        },
+        {
+            "date": "2024-11-12"
+        },
+        {
+            "date": "2024-11-13"
+        },
+        {
+            "date": "2024-11-15"
+        },
+        {
+            "date": "2024-11-18"
+        },
+        {
+            "date": "2024-11-20"
+        },
+        {
+            "date": "2024-11-22"
+        },
+        {
+            "date": "2024-11-25"
+        },
+        {
+            "date": "2024-11-26"
+        },
+        {
+            "date": "2024-11-27"
+        }
+    ]
+}
+
+
+{
+"mecaniciens":
+[
+{
+"nom": "Michael",
+"idMecanicien":2,
+},
+{
+"nom": "Sophia",
+"idMecanicien":3,
+},
+{
+"nom": "James",
+"idMecanicien":4,
+},
+{
+"nom": "Emma",
+"idMecanicien":5,
+},
+{
+"nom": "Wilson",
+"idMecanicien":6,
+}
+]
+}
